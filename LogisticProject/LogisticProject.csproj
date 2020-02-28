@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CalculationCargo.cs" />
     <Compile Include="UserControls\CalculationCargoUC.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -7,3 +7,4 @@ C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.cspro
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.exe
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.pdb
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.CalculationCargoUC.resources
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.csprojAssemblyReference.cache
