@@ -16,5 +16,15 @@ namespace LogisticProject
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnCalculationOrder_Click(object sender, EventArgs e)
+        {
+            //calculationCargoUC1.BringToFront();
+        }
     }
 }

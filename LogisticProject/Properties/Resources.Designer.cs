@@ -63,9 +63,29 @@ namespace LogisticProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_адрес_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-адрес-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_главная_страница_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-главная-страница-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_макос_закрыть_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-макос-закрыть-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

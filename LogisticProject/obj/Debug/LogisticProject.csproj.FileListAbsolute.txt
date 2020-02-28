@@ -1,0 +1,9 @@
+C:\Final Project\LogisticProject\LogisticProject\bin\Debug\LogisticProject.exe.config
+C:\Final Project\LogisticProject\LogisticProject\bin\Debug\LogisticProject.exe
+C:\Final Project\LogisticProject\LogisticProject\bin\Debug\LogisticProject.pdb
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.MainForm.resources
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.Properties.Resources.resources
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.csproj.GenerateResource.cache
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.exe
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.pdb
+C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.CalculationCargoUC.resources
