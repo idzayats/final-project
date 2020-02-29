@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.pnlTop = new System.Windows.Forms.Panel();
-            this.pnlNavigation = new System.Windows.Forms.Panel();
+            this.btnClose = new System.Windows.Forms.Button();
             this.lblNameCompany = new System.Windows.Forms.Label();
-            this.pnlFill = new System.Windows.Forms.Panel();
+            this.pnlNavigation = new System.Windows.Forms.Panel();
             this.btnContacts = new System.Windows.Forms.Button();
             this.btnOrders = new System.Windows.Forms.Button();
             this.btnCalculationOrder = new System.Windows.Forms.Button();
             this.btnPersonalAccount = new System.Windows.Forms.Button();
             this.btnMainPage = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
+            this.pnlFill = new System.Windows.Forms.Panel();
             this.calculationCargoUC1 = new LogisticProject.CalculationCargoUC();
             this.pnlTop.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
@@ -55,6 +55,28 @@
             this.pnlTop.Size = new System.Drawing.Size(763, 38);
             this.pnlTop.TabIndex = 0;
             // 
+            // btnClose
+            // 
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Image = global::LogisticProject.Properties.Resources.icons8_макос_закрыть_32;
+            this.btnClose.Location = new System.Drawing.Point(725, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(38, 37);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblNameCompany
+            // 
+            this.lblNameCompany.AutoSize = true;
+            this.lblNameCompany.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblNameCompany.Location = new System.Drawing.Point(12, 9);
+            this.lblNameCompany.Name = "lblNameCompany";
+            this.lblNameCompany.Size = new System.Drawing.Size(218, 18);
+            this.lblNameCompany.TabIndex = 0;
+            this.lblNameCompany.Text = "Логистическая компания";
+            // 
             // pnlNavigation
             // 
             this.pnlNavigation.Controls.Add(this.btnContacts);
@@ -67,26 +89,6 @@
             this.pnlNavigation.Name = "pnlNavigation";
             this.pnlNavigation.Size = new System.Drawing.Size(763, 36);
             this.pnlNavigation.TabIndex = 1;
-            // 
-            // lblNameCompany
-            // 
-            this.lblNameCompany.AutoSize = true;
-            this.lblNameCompany.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblNameCompany.Location = new System.Drawing.Point(12, 9);
-            this.lblNameCompany.Name = "lblNameCompany";
-            this.lblNameCompany.Size = new System.Drawing.Size(218, 18);
-            this.lblNameCompany.TabIndex = 0;
-            this.lblNameCompany.Text = "Логистическая компания";
-            // 
-            // pnlFill
-            // 
-            this.pnlFill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlFill.Controls.Add(this.calculationCargoUC1);
-            this.pnlFill.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlFill.Location = new System.Drawing.Point(0, 74);
-            this.pnlFill.Name = "pnlFill";
-            this.pnlFill.Size = new System.Drawing.Size(763, 368);
-            this.pnlFill.TabIndex = 2;
             // 
             // btnContacts
             // 
@@ -157,17 +159,15 @@
             this.btnMainPage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnMainPage.UseVisualStyleBackColor = true;
             // 
-            // btnClose
+            // pnlFill
             // 
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Image = global::LogisticProject.Properties.Resources.icons8_макос_закрыть_32;
-            this.btnClose.Location = new System.Drawing.Point(725, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(38, 37);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.pnlFill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlFill.Controls.Add(this.calculationCargoUC1);
+            this.pnlFill.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlFill.Location = new System.Drawing.Point(0, 74);
+            this.pnlFill.Name = "pnlFill";
+            this.pnlFill.Size = new System.Drawing.Size(763, 368);
+            this.pnlFill.TabIndex = 2;
             // 
             // calculationCargoUC1
             // 
