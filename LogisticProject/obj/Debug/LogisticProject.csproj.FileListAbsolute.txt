@@ -8,3 +8,5 @@ C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.exe
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.pdb
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.CalculationCargoUC.resources
 C:\Final Project\LogisticProject\LogisticProject\obj\Debug\LogisticProject.UserControls.PersonalAccountUC.resources
+C:\Final Project\LogisticProject\LogisticProject\bin\Debug\Clients.mdf
+C:\Final Project\LogisticProject\LogisticProject\bin\Debug\Clients_log.ldf
