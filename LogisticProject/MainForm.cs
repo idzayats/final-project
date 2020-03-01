@@ -24,7 +24,12 @@ namespace LogisticProject
 
         private void btnCalculationOrder_Click(object sender, EventArgs e)
         {
-            //calculationCargoUC1.BringToFront();
+            calculationCargoUC1.BringToFront();
+        }
+
+        private void btnPersonalAccount_Click(object sender, EventArgs e)
+        {
+            personalAccountUC1.BringToFront();
         }
     }
 }

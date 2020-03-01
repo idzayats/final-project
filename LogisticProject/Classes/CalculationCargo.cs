@@ -19,8 +19,7 @@ namespace LogisticProject.Classes
         static double cargoVolume = 0;
 
         // цена бензина за литр
-        const int fuelLiter = 42;
-
+        const int fuelLiter = 45;
 
         public static void ChooseCity(string cityFrom, string cityTo, string Height, string Length, string Volume, string Width)
         {

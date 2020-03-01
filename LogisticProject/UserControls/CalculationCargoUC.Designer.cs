@@ -60,13 +60,15 @@
             this.tbxFrom.Name = "tbxFrom";
             this.tbxFrom.Size = new System.Drawing.Size(143, 20);
             this.tbxFrom.TabIndex = 0;
+            this.tbxFrom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxFrom_KeyPress);
             // 
             // tbxTo
             // 
-            this.tbxTo.Location = new System.Drawing.Point(206, 82);
+            this.tbxTo.Location = new System.Drawing.Point(206, 80);
             this.tbxTo.Name = "tbxTo";
             this.tbxTo.Size = new System.Drawing.Size(143, 20);
             this.tbxTo.TabIndex = 1;
+            this.tbxTo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbxTo_KeyPress);
             // 
             // lblFrom
             // 

@@ -39,8 +39,14 @@ namespace LogisticProject
             }
         }
 
+        private void btnPayment_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Перевозка оплачена!");
+        }
+
         private void tbxWidth_KeyPress(object sender, KeyPressEventArgs e)
         {
+            // только латиница
             char number = e.KeyChar;
 
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && (e.KeyChar <= 39 || e.KeyChar >= 46) && number != 47 && number != 61)
@@ -79,9 +85,23 @@ namespace LogisticProject
             }
         }
 
-        private void btnPayment_Click(object sender, EventArgs e)
+        private void tbxFrom_KeyPress(object sender, KeyPressEventArgs e)
         {
+            // только кириллица
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
+            {
+                e.Handled = true;
+            }
+        }
 
+        private void tbxTo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
+            {
+                e.Handled = true;
+            }
         }
     }
 }

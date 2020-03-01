@@ -39,6 +39,7 @@
             this.btnMainPage = new System.Windows.Forms.Button();
             this.pnlFill = new System.Windows.Forms.Panel();
             this.calculationCargoUC1 = new LogisticProject.CalculationCargoUC();
+            this.personalAccountUC1 = new LogisticProject.UserControls.PersonalAccountUC();
             this.pnlTop.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
             this.pnlFill.SuspendLayout();
@@ -144,6 +145,7 @@
             this.btnPersonalAccount.Text = "Личный кабинет";
             this.btnPersonalAccount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPersonalAccount.UseVisualStyleBackColor = true;
+            this.btnPersonalAccount.Click += new System.EventHandler(this.btnPersonalAccount_Click);
             // 
             // btnMainPage
             // 
@@ -162,6 +164,7 @@
             // pnlFill
             // 
             this.pnlFill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlFill.Controls.Add(this.personalAccountUC1);
             this.pnlFill.Controls.Add(this.calculationCargoUC1);
             this.pnlFill.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlFill.Location = new System.Drawing.Point(0, 74);
@@ -175,6 +178,13 @@
             this.calculationCargoUC1.Name = "calculationCargoUC1";
             this.calculationCargoUC1.Size = new System.Drawing.Size(763, 368);
             this.calculationCargoUC1.TabIndex = 0;
+            // 
+            // personalAccountUC1
+            // 
+            this.personalAccountUC1.Location = new System.Drawing.Point(-1, -1);
+            this.personalAccountUC1.Name = "personalAccountUC1";
+            this.personalAccountUC1.Size = new System.Drawing.Size(763, 368);
+            this.personalAccountUC1.TabIndex = 1;
             // 
             // MainForm
             // 
@@ -208,6 +218,7 @@
         private System.Windows.Forms.Label lblNameCompany;
         private System.Windows.Forms.Panel pnlFill;
         private CalculationCargoUC calculationCargoUC1;
+        private UserControls.PersonalAccountUC personalAccountUC1;
     }
 }
 
