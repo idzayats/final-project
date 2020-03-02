@@ -61,7 +61,6 @@
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.Size = new System.Drawing.Size(143, 20);
             this.tbxPassword.TabIndex = 3;
-            this.tbxPassword.Text = "partitura007";
             // 
             // lblLoginName
             // 
@@ -119,7 +118,6 @@
             this.tbxFirsname.Name = "tbxFirsname";
             this.tbxFirsname.Size = new System.Drawing.Size(143, 20);
             this.tbxFirsname.TabIndex = 9;
-            this.tbxFirsname.Text = "Зайцев";
             // 
             // lblSecondname
             // 
@@ -137,7 +135,6 @@
             this.tbxSecondname.Name = "tbxSecondname";
             this.tbxSecondname.Size = new System.Drawing.Size(143, 20);
             this.tbxSecondname.TabIndex = 11;
-            this.tbxSecondname.Text = "Андрей";
             // 
             // lblThirdname
             // 
@@ -155,7 +152,6 @@
             this.tbxThirdname.Name = "tbxThirdname";
             this.tbxThirdname.Size = new System.Drawing.Size(143, 20);
             this.tbxThirdname.TabIndex = 13;
-            this.tbxThirdname.Text = "Петрович";
             // 
             // lblMoney
             // 
@@ -173,7 +169,6 @@
             this.tbxMoney.Name = "tbxMoney";
             this.tbxMoney.Size = new System.Drawing.Size(143, 20);
             this.tbxMoney.TabIndex = 15;
-            this.tbxMoney.Text = "3000";
             // 
             // btnUpdateData
             // 

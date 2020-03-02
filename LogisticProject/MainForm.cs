@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using LogisticProject.Classes;
 using System.Windows.Forms;
 
 namespace LogisticProject
@@ -30,6 +24,9 @@ namespace LogisticProject
         private void btnPersonalAccount_Click(object sender, EventArgs e)
         {
             personalAccountUC1.BringToFront();
+            Client.ClientLogin = "babazaeb";
+            Client.ClientPassword = "qawsed";
+            DBConnection.GetClientData(Client.ClientLogin, Client.ClientPassword);
         }
     }
 }
